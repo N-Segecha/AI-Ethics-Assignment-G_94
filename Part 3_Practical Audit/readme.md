@@ -41,7 +41,7 @@ Open COMPAS_Bias_Audit.ipynb in Jupyter or Google Colab
 
 Run all cells sequentially
 
-Key outputs:
+## Key outputs:
 
 Visualizations (saved as PNG)
 
@@ -81,20 +81,20 @@ This audit underscores the urgent need for algorithmic accountability in high-st
 ## 🔧 BIAS MITIGATION STRATEGIES
 
 1. Threshold Optimization for Equalized Odds
-   • Other: Optimal threshold = 10
-   • African-American: Optimal threshold = 10
-   • Caucasian: Optimal threshold = 10
-   • Hispanic: Optimal threshold = 10
-   • Native American: Optimal threshold = 10
-   • Asian: Optimal threshold = 9
+   * Other: Optimal threshold = 10
+   * African-American: Optimal threshold = 10
+   * Caucasian: Optimal threshold = 10
+   * Hispanic: Optimal threshold = 10
+   * Native American: Optimal threshold = 10
+   * Asian: Optimal threshold = 9
 
 2. Synthetic Data Augmentation for Balance
-   • Current data distribution: {'African-American': 3696, 'Caucasian': 2454, 'Hispanic': 637, 'Other': 377, 'Asian': 32, 'Native American': 18}
-   • Recommendation: Augment underrepresented groups
+   * Current data distribution: {'African-American': 3696, 'Caucasian': 2454, 'Hispanic': 637, 'Other': 377, 'Asian': 32, 'Native American': 18}
+   * Recommendation: Augment underrepresented groups
 
 3. Feature Bias Analysis
-   • Features most correlated with race should be reviewed
-   • Consider removing indirect proxies for protected attributes
+   * Features most correlated with race should be reviewed
+   * Consider removing indirect proxies for protected attributes
 
 ## Mitigation Effectiveness:
 
@@ -121,29 +121,30 @@ Establish quarterly audit process
 
 
 # 📊 Analysis Summary: COMPAS BIAS AUDIT
-   • Dataset size: 7214 records
-   • Racial groups analyzed: 6
-   • Key bias indicators calculated: FPR, FNR, Accuracy disparities
-   • Visualizations generated: 4-panel bias dashboard
-   • Professional audit report: Generated
+   * Dataset size: 7214 records
+   * Racial groups analyzed: 6
+   * Key bias indicators calculated: FPR, FNR, Accuracy disparities
+   * Visualizations generated: 4-panel bias dashboard
+   * Professional audit report: Generated
 
-🎯 Key Takeaways:
-   • Significant algorithmic bias detected against African-American defendants
-   • False positive rate disparities exceed acceptable thresholds
-   • Immediate mitigation strategies required
-   • Ongoing monitoring and governance frameworks needed
+## 🎯 Key Takeaways:
+   * Significant algorithmic bias detected against African-American defendants
+   * False positive rate disparities exceed acceptable thresholds
+   * Immediate mitigation strategies required
+   * Ongoing monitoring and governance frameworks needed
 
-📋 Next Steps:
+## 📋 Next Steps:
    1. Share audit report with stakeholders
    2. Implement recommended mitigation strategies
    3. Establish continuous monitoring systems
    4. Conduct regular bias audits (quarterly recommended)
    5. Engage with affected communities for feedback
 
-🔗 Additional Resources:
-   • AI Fairness 360 Documentation: https://aif360.mybluemix.net/
-   • Fairness in Machine Learning: https://fairmlbook.org/
-   • COMPAS Dataset: https://github.com/propublica/compas-analysis
-
-License
+## 🔗 Additional Resources:
+   * AI Fairness 360 Documentation: (https://aif360.mybluemix.net/) 
+   * Fairness in Machine Learning: (https://fairmlbook.org/) 
+   * COMPAS Dataset: (https://github.com/propublica/compas-analysis)
+# Author:
+Nelly Maritim-PLP Feb 2025 Cohort.
+# License
 This project is licensed under the MIT License - see LICENSE for details.
